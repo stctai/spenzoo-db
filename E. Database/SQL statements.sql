@@ -25,7 +25,7 @@ WHERE expenseId in (
 	) AND category in (
 		SELECT categoryId
 		FROM category
-		WHERE  name like &quot;%Food%&quot;
+		WHERE  name like '%Food%'
 		)
 );
 
@@ -39,7 +39,7 @@ WHERE expenseId in (
 	WHERE accountId in (
 		SELECT accountId
 		FROM Account
-		WHERE userId = 13 and accountName Like &quot;%mastercard%&quot;
+		WHERE userId = 13 and accountName Like '%mastercard%'
 	) 
 );
 
@@ -47,7 +47,7 @@ WHERE expenseId in (
 /* Query personal total expense of  userId = 13 in Aug. 2021 (by period)*/
 SELECT sum(amount * percentage  / 100) AS userId_13_total_expense_in_Aug_2021
 FROM Expense
-WHERE date like &quot;%8/%/2021%&quot; AND expenseId in (
+WHERE date like '8/%/2021%' AND expenseId in (
 	SELECT expenseId
 	FROM Expense_Account
 	WHERE accountId in (
