@@ -4,4 +4,4 @@ Application name: Spenzoo
 Team member: YuHan Chi, Tzu-Chi Tai
 
 ![](B.%20UML%20Class%20Diagram.png)
-![](C. ER Diagram.png)
+![](C.%20ER%20Diagram.png)
