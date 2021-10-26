@@ -3,5 +3,5 @@
 Application name: Spenzoo
 Team member: YuHan Chi, Tzu-Chi Tai
 
-![alt text](https://github.com/stctai/CS5200/blob/main/B. UML Class Diagram.png?raw=true)
-
+![](B.%20UML%20Class%20Diagram.png)
+![](C.%20ERD.png)
