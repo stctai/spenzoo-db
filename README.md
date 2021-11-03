@@ -1,8 +1,25 @@
 # CS5200 Project 1
 
-Application name: Spenzoo
-Team member: YuHan Chi, Tzu-Chi Tai
-Project proposal: Implenting a database for an expense tracking app
+### Application name: Spenzoo
+
+### Team member: YuHan Chi, Tzu-Chi Tai
+
+### Project proposal: Implenting a database for an expense tracking app including the following features:
+
+- CRUD user expenses with customizable details, i.e. date, amount, category, desciption, etc..
+- Users can create multiple accounts to better record the payment method used for each transaction. For example, an account named BofA will include all the expenses paid with a Bank of America Credit Card.
+- User can set periodical budgets for themselves, with a desired starting date and the duration of the budget cycle.
+- The percentage of each expense is set to 100% by default. However, if the user is sharing the bill with other users, manually type in the percentage he/she is paying to split the bill among friends.
+- User can view their expenses grouped over categories, period of time, or account.
+
+### Installation
+
+1. Clone the repository
+2. `npm install`
+3. `npm start`
+4. Provide user info to create user
+5. Linked user ID to budget ID
+6. Click button to delete data
 
 ![](B.%20UML%20Class%20Diagram.png)
 
