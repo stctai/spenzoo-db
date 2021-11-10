@@ -131,3 +131,5 @@ module.exports.getUserBudgets = getUserBudgets;
 module.exports.createUserBudget = createUserBudget;
 module.exports.getUserBudgetById = getUserBudgetById;
 module.exports.deleteUserBudget = deleteUserBudget;
+
+// It would be handy if the functions for the user and budgets are separated into separate files.

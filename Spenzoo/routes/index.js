@@ -119,3 +119,5 @@ router.post("/user_budget/delete", async function (req, res) {
 });
 
 module.exports = router;
+
+//  It would be handy if the routes for the user and budgets are separated into separate files and linked to the index file.
